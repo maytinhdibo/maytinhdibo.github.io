@@ -1,0 +1,77 @@
+.login-page{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:#345;
+    background-image:url("img/login.png");
+    background-size:cover;
+  }
+  #login-form{
+    text-align: center;
+    background:rgba(255, 255, 255, 0.8);
+    position:fixed;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    width:300px;
+    border-radius:3px;
+    padding:16px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  #login-form p{
+    font-size:12px;
+    padding-top:3px;
+  }
+  #login-form p a{
+    color:#9575CD;
+  }
+  #login-form img{
+    padding:9px;
+    padding-top:0;
+    height:70px;
+  }
+  #login-form a{
+    text-decoration: none;
+    color:#345;
+  }
+  #login-form h2{
+    margin-bottom:6px;
+  }
+  #login-form input, #login-form button{
+    padding:15px;
+    width:100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.7);
+    border:none;
+    border-radius: 3px;
+    margin:6px 0;
+    transition:0.25s;
+  }
+  #login-form button:hover{
+    background: #7E57C2;
+    color: #eee;
+  }
+  #login-form input{
+    margin-top:0;
+  }
+  #login-form .signup-password{
+    width:49.5%;
+  }
+  #alert{
+      width:100%;
+  }
+  .back{
+    position: absolute;
+    font-size:28px;
+    padding:0px 10px 5px 10px;
+    background: rgba(80, 79, 79, 0.1);
+    border-radius: 4px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .back:hover{
+    background: rgba(80, 79, 79, 0.2);
+  }
