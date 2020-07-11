@@ -16,7 +16,7 @@ async function init() {
     await readData("triGram", "trigram.txt");
     await readVocab();
 
-    document.querySelector("#loading").style.display = "none";
+    document.querySelector("#loading-overlay").style.display = "none";
 }
 
 async function readVocab() {
