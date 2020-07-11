@@ -20,6 +20,7 @@ h1 {
 }
 
 .center-block {
+    width: 100%;
     position: fixed;
     top: calc(50vh - 175px);
     left: 50%;
