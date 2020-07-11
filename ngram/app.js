@@ -8,11 +8,16 @@ var totalWord = 0;
 
 var wordVocab = [];
 
-readVocab();
+init();
 
-readData("uniGram", "unigram.txt");
-readData("biGram", "bigram.txt");
-readData("triGram", "trigram.txt");
+async function init() {
+    await readData("uniGram", "unigram.txt");
+    await readData("biGram", "bigram.txt");
+    await readData("triGram", "trigram.txt");
+    await readVocab();
+
+    document.querySelector("#loading").style.display = "none";
+}
 
 async function readVocab() {
     await fetch("output/vocab.txt").then(function (response) {
