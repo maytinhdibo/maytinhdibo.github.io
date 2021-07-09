@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <title>Cuong Tran (maytinhdibo)</title>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+    <style>
+        * {
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        body {
+            background: #363959;
+        }
+
+        #main {
+            background-image: url(img/wall.jpg);
+            background-size: cover;
+            position: fixed;
+            top: 0;
+            left: 320px;
+            bottom: 0;
+            right: 0;
+            border-radius: 56px 0 0 56px;
+            background-color: #fbfbfb;
+            padding: 9px 16px;
+            padding-top: 32px;
+            text-align: center;
+            box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+        }
+
+        #text {
+            position: fixed;
+            top: 50%;
+            left: 0;
+            width: 320px;
+            padding: 9px 24px;
+            text-align: center;
+            box-sizing: border-box;
+            color: #fff;
+            transform: translateY(-50%);
+        }
+
+        .card {
+            width: 320px;
+            height: 120px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            overflow: hidden;
+            background-size: auto 90%;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 1em auto;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        .card:hover {
+            box-shadow: 0 0 9px rgba(0, 0, 0, 0.6);
+            transform: scale(1.05);
+        }
+
+        @media only screen and (max-width: 700px) {
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+
+            html {
+                height: 100vh;
+            }
+
+            #text {
+                position: relative;
+                top: auto;
+                left: auto;
+                right: auto;
+                bottom: auto;
+                transform: none;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            #main {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                top: auto;
+                left: auto;
+                right: auto;
+                bottom: auto;
+                border-radius: 32px 32px 0px 0px;
+                height: 100%;
+            }
+        }
+    </style>
+    <div id="text">
+        <p style="font-size: 1.35em;">Hi! My name is Trần Mạnh Cường (Cuong Tran). I'm from Vietnam. If you like my
+            projects, help support me at here!</p>
+    </div>
+    <div id="main">
+        <a href="https://paypal.me/maytinhdibo">
+            <div style="background-image: url(img/paypal.png);
+      background-color: #e6f5ff;" class="card">
+            </div>
+        </a>
+
+        <a href="https://nhantien.momo.vn/eFWE7TYxzws">
+            <div style="background-image: url(img/momo.png);
+      background-color: #af2170;" class="card">
+            </div>
+        </a>
+
+        <a href="img/qr/shopee.png">
+            <div style="background-image: url(img/shopee.png);
+      background-color: #ee4d2b;" class="card">
+            </div>
+        </a>
+
+        <a href="img/qr/zalo.jpg">
+            <div style="background-image: url(img/zalo.png);
+    background-color: #008fe4;" class="card">
+
+            </div>
+        </a>
+
+        <!-- <div style="background-image: url(img/viettelpay.png);
+        background-color: #dc2f3c;" class="card">
+        </div> -->
+        <br />
+        <a class="github-button" href="https://github.com/maytinhdibo" data-size="large" data-show-count="true"
+            aria-label="Follow @maytinhdibo on GitHub">Follow @maytinhdibo</a>
+    </div>
+</body>
+
+</html>
