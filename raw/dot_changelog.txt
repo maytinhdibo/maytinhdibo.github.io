@@ -1,0 +1,6 @@
+[20.07.2021]
+=====Devices=====
+Fix camera
+Fix speaker for calling
+=====Kernel======
+Switch to Quantic Kernel
