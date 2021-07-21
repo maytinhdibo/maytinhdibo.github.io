@@ -1,3 +1,12 @@
+[21.07.2021]
+=====Devices=====
+Add Gcam Go
+Add EqualizerFX
+Add more QS-Panel spacing
+...more stuff for stable
+=====Kernel======
+Update newest Quantic Kernel
+
 [20.07.2021]
 =====Devices=====
 Fix camera
