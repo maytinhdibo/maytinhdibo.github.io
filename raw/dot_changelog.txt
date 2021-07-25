@@ -1,3 +1,13 @@
+[21.07.2021] [FASTBOOT-ONLY]
+=====Devices=====
+Improved sound quality
+Improved mic quality
+Fixed echo in more app
+Remove EqualizerFX, don't need it anymore
+Improved pocket mode
+=====Kernel======
+Fixed high refresh rate
+
 [21.07.2021]
 =====Devices=====
 Add Gcam Go
