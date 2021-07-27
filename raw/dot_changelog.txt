@@ -1,3 +1,13 @@
+[27.07.2021]
+=====Devices=====
+Add Shady Launcher, look like Pixel launcher
+New gestures, icon changer for launcher
+Alarm screen for pocket mode
+Incoming call for pocket mode
+Fixed some UI screen
+=====Kernel======
+Improved battery life and performance
+
 [21.07.2021] [FASTBOOT-ONLY]
 =====Devices=====
 Improved sound quality
