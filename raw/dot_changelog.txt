@@ -1,3 +1,9 @@
+[28.07.2021] [BOTH FASTBOOT AND SIDELOAD]
+=====Devices=====
+Update newest Shady Launcher newer ever ROM
+Fix some crash Netflix cases
+Added my own power button on QuickSetting
+
 [27.07.2021]
 =====Devices=====
 Add Shady Launcher, look like Pixel launcher
