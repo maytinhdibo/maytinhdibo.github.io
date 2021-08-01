@@ -1,3 +1,16 @@
+[01.08.2021] DotOS 5.1.2
+Note: Recommended to use TWRP sideload and clean install for this installation
+=====Devices=====
+Bump up max brightness to 150%
+Fix some crash event
+Fixed NFC
+Fixed QS power button
+Fixed UI/UX of dotOS 5.1.2 make device more looklike A12.
+Fix statusbar on lockscreen position
+Removed unused QS tile
+More round corner
+More stability
+
 [28.07.2021] [BOTH FASTBOOT AND SIDELOAD]
 =====Devices=====
 Update newest Shady Launcher newer ever ROM
