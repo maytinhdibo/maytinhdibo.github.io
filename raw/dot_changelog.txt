@@ -1,4 +1,4 @@
-[01.08.2021] DotOS 5.1.2
+[01.08.2021]
 Note: Recommended to use TWRP sideload and clean install for this installation
 =====Devices=====
 Bump up max brightness to 150%
