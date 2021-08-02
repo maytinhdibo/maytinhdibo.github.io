@@ -1,3 +1,10 @@
+[02.08.2021]
+=====Devices=====
+Improved audio like MIUI 12.5.2
+Added Google Sans wide-system font theme (Anh Khoa request)
+Fixed dotOS lockscreen statusbar position  (Vitor Anthero request)
+Set default network is LTE (for first install) and make network better for battery life
+
 [01.08.2021]
 Note: Recommended to use TWRP sideload and clean install for this installation
 =====Devices=====
