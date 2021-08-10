@@ -12,9 +12,6 @@ Fix kernel name
 Welcome to OTA Update (TWRP required)
 Go to Settings -> System -> Cuong's Headquater or Cuong's Headquater app
 Welcome to Moto Dolby
-=====Kernel======
-Faster deepsleep
-Optimized touch screen
 
 [06.08.2021] DotOS 5.1.3
 =====Devices=====
